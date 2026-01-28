@@ -35,6 +35,10 @@
      width: 150px;
  }
 
+ .navbar-nav {
+    column-gap: 20px !important;
+ }
+
  .navbar {
      background-color: rgba(5, 5, 5, 0.95);
      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -43,9 +47,9 @@
 
  .nav-link {
      color: rgba(255, 255, 255, 0.7) !important;
-     font-size: 0.75rem;
+     font-size: 14px;
      font-weight: 800;
-     text-transform: uppercase;
+     text-transform: capitalize;
      letter-spacing: 0.15em;
      transition: color 0.3s;
  }
