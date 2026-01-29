@@ -1085,21 +1085,56 @@
     </footer>
 
 
-    <div class="floating-action-wrap">
+    <!-- <div class="floating-action-wrap"> -->
 
         <!-- Call -->
-        <a href="tel:+91-9646700010" class="floating-btn call-btn">
+        <!-- <a href="tel:+91-9646700010" class="floating-btn call-btn">
             <i class="fa-solid fa-phone"></i>
             <span>Call Us</span>
-        </a>
+        </a> -->
 
         <!-- Contact -->
-        <a href="#registration" class="floating-btn contact-btn">
+        <!-- <a href="#registration" class="floating-btn contact-btn">
             <i class="fa-solid fa-envelope"></i>
             <span>Contact Us</span>
         </a>
 
+    </div> -->
+
+    <!-- ================= Fixed Top Strip ================= -->
+<div id="top-fixed-bar" style="position:fixed; bottom:0; left:0; width:100%; z-index:9999;">
+    <div class="d-flex text-uppercase">
+
+        <!-- Left (Call) -->
+        <a href="tel:+91-9646700010"
+           class="flex-fill col-6 text-center py-3 fw-bold font-serif"
+           style="
+                background:#FF2E17;
+                color:#fff;
+                text-decoration:none;
+                font-size:13px;
+                letter-spacing:1.5px;
+           ">
+            <i class="fa-solid fa-phone"></i> Call Now : 0404 830 830
+        </a>
+
+        <!-- Right (Enquiry Form Scroll) -->
+        <a href="#enquiryForm"
+           class="flex-fill col-6 text-center d-flex align-items-center justify-content-center py-3 fw-bold font-serif"
+           style="
+                background:#0c0c0c;
+                color:#fff;
+                text-decoration:none;
+                font-size:13px;
+                letter-spacing:1.5px;
+                border-left:1px solid rgba(255,255,255,0.15);
+           ">
+            <i class="fa-solid fa-envelope"></i> Registration Form
+        </a>
+
     </div>
+</div>
+
 
 
 
@@ -1138,16 +1173,16 @@
 
     </script>
 
-     <script>
-window.addEventListener("scroll", function () {
-    const nav = document.querySelector(".navbar");
-    if (window.scrollY > 80) {
-        nav.classList.add("scrolled");
-    } else {
-        nav.classList.remove("scrolled");
-    }
-});
-</script>
+    <script>
+        window.addEventListener("scroll", function () {
+            const nav = document.querySelector(".navbar");
+            if (window.scrollY > 80) {
+                nav.classList.add("scrolled");
+            } else {
+                nav.classList.remove("scrolled");
+            }
+        });
+    </script>
 
 </body>
 
