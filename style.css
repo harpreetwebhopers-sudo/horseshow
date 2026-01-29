@@ -1250,3 +1250,7 @@
   }
 }
 
+#top-fixed-bar a:hover {
+    filter: brightness(1.1);
+}
+
