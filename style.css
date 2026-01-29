@@ -263,7 +263,7 @@
 
  .heritage-card {
      background: var(--card-bg);
-     border: 1px solid rgba(212, 175, 55, 0.2);
+     border: 1px solid #ff2e17;
      border-radius: 0;
      padding: 2.5rem;
      height: 100%;
@@ -271,7 +271,7 @@
  }
 
  .heritage-card:hover {
-     border-color: var(--gold-accent);
+     border-color: #ff2e17;
      transform: translateY(-5px);
      box-shadow: 0 10px 30px rgba(212, 175, 55, 0.1);
  }
