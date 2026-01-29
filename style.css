@@ -64,9 +64,9 @@
 }
 
 /* White toggler */
-.navbar-toggler-icon {
+/* .navbar-toggler-icon {
     filter: invert(1);
-}
+} */
 
 
  .navbar {
@@ -445,10 +445,6 @@
 
      .venue-text-inner::before {
          display: none;
-     }
-
-     .navbar-toggler-icon {
-        background-color: #fff;
      }
 
      .hero-title {
