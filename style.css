@@ -428,6 +428,10 @@
      div#navbarNav {
         margin-top: 30px;
     }
+
+     .nav-link {
+      padding: 15px 15px !important;
+    }
  }
 
  /* Audience block */
