@@ -1164,3 +1164,10 @@
   background: #FF2E17; /* Primary red */
 }
 
+@media (max-width: 576px) {
+  .float-btn {
+    width: 46px;
+    height: 46px;
+    font-size: 18px;
+  }
+}
