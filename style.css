@@ -36,6 +36,33 @@
      width: 180px;
  }
 
+ /* Zoom in–out animation */
+.join-animate {
+    animation: zoomPulse 1.8s ease-in-out infinite;
+    transform-origin: center;
+}
+
+/* Smooth hover stop */
+.join-animate:hover {
+    animation-play-state: paused;
+}
+
+@keyframes zoomPulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(255,46,23,0.0);
+    }
+    50% {
+        transform: scale(1.08);
+        box-shadow: 0 0 20px rgba(255,46,23,0.45);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(255,46,23,0.0);
+    }
+}
+
+
  .navbar-nav {
     column-gap: 20px !important;
  }
