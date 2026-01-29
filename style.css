@@ -442,14 +442,23 @@
              rgba(255, 255, 255, 0.12),
              rgba(255, 255, 255, 0.04));
      backdrop-filter: blur(10px);
-     border: 1px solid rgba(255, 255, 255, 0.25);
      padding: 35px;
  }
+
+ .venue-glass-card:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--primary-red);
+}
 
  .venue-glass-card small {
      font-size: 11px;
      letter-spacing: 2px;
-     color: rgba(255, 255, 255, 0.6);
+     color: #fff;
  }
 
  .venue-glass-card h5 {
