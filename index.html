@@ -21,13 +21,13 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-transparent">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
                 <div class="d-flex align-items-center justify-content-center me-3"
                     style="height: 65px; border-radius: 50%;">
                     <!-- <span class="font-serif fw-black">LK</span> -->
-                    <img src="images/Group 3.webp" alt="LAAL KOTHI" class="logo">
+                    <img src="images/logo.webp" alt="LAAL KOTHI" class="logo">
                 </div>
                 <!-- <div>
                     <h5 class="mb-0 text-white font-serif fw-bold" style="letter-spacing: 1px;">LAAL KOTHI</h5>
@@ -1036,7 +1036,7 @@
                 <div class="col-md-6">
                     <a class="navbar-brand d-flex align-items-center mb-4" href="#">
                         <div class="d-flex align-items-center justify-content-center me-3">
-                            <img src="images/Group 3.webp" alt="LAAL KOTHI" class="logo">
+                            <img src="images/logo.webp" alt="LAAL KOTHI" class="logo">
                         </div>
                     </a>
                     <p class="text-white-50 fw-light mb-4" style="max-width: 400px;">
@@ -1137,6 +1137,17 @@
         });
 
     </script>
+
+     <script>
+window.addEventListener("scroll", function () {
+    const nav = document.querySelector(".navbar");
+    if (window.scrollY > 80) {
+        nav.classList.add("scrolled");
+    } else {
+        nav.classList.remove("scrolled");
+    }
+});
+</script>
 
 </body>
 

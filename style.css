@@ -39,6 +39,36 @@
     column-gap: 20px !important;
  }
 
+ /* Transparent navbar */
+.navbar-transparent {
+    background: transparent !important;
+    transition: background 0.35s ease, padding 0.35s ease;
+    z-index: 9999;
+}
+
+/* On scroll - solid background */
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.92);
+    backdrop-filter: blur(6px);
+}
+
+/* Nav links */
+.navbar .nav-link {
+    color: #fff !important;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.navbar .nav-link:hover {
+    color: #FF2E17 !important;
+}
+
+/* White toggler */
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+
  .navbar {
      background-color: rgba(5, 5, 5, 0.95);
      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
