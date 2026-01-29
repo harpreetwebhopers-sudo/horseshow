@@ -473,6 +473,10 @@
      width: 150px !important;
  }
 
+ .carousel-inner {
+    margin-top: 70px !important;
+}
+
  }
 
  /* Audience block */
