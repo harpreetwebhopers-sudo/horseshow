@@ -273,7 +273,7 @@
  .heritage-card:hover {
      border-color: #ff2e17;
      transform: translateY(-5px);
-     box-shadow: 0 10px 30px rgba(212, 175, 55, 0.1);
+     box-shadow: 0 10px 30px #ff2e171a;
  }
 
  .section-title {
