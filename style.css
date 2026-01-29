@@ -1124,3 +1124,43 @@
 .footer-social i {
   font-size: 16px;
 }
+
+/* floating icons css */
+
+.floating-actions {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 9999;
+}
+
+.float-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.4);
+  transition: transform .3s ease, box-shadow .3s ease;
+  text-decoration: none;
+}
+
+.float-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 35px rgba(0,0,0,.6);
+}
+
+.call-btn {
+  background: #198754; /* Bootstrap green */
+}
+
+.contact-btn {
+  background: #FF2E17; /* Primary red */
+}
+
