@@ -462,6 +462,16 @@
      .nav-link {
       padding: 8px 15px !important;
     }
+
+    .navbar {
+        background: #000 !important;
+    }
+
+    .navbar,
+    .navbar.scrolled {
+        background: #000 !important;
+    }
+
  }
 
  /* Audience block */
